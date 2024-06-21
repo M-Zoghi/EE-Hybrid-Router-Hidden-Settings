@@ -12,7 +12,7 @@
    
     [<img src="https://img.shields.io/badge/Install-EE%20Hybrid%20Router%20Hidden%20Settings-55682D?style=for-the-badge&logo=tampermonkey">](https://github.com/M-Zoghi/EE-Hybrid-Router-Hidden-Settings/raw/main/EE%20Hybrid%20Router%20Hidden%20Settings.user.js)
 
-#### List of menus added:
+#### List of added menus:
 - ADSL Settings
 - VDSL Settings
 - LTE Settings
