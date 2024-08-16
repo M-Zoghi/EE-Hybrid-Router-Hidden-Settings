@@ -11,6 +11,9 @@
 (function() {
     'use strict';
 
+    FwLock = "0";
+    showACL(FwLock);
+
     var advancedSettingsMenuItem = document.getElementById('menu_Advanced');
 
     var ulElement = document.createElement('ul');
