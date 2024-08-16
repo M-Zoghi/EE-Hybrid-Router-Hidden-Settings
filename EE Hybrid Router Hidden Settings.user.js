@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         EE Hybrid Router Hidden Settings
 // @namespace    https://github.com/M-Zoghi/EE-Hybrid-Router-Hidden-Settings
-// @version      0.1
+// @version      0.2
 // @description  Adds Hidden Menus to EE Hybrid Router
 // @author       M-Zoghi
 // @match        http*://192.168.1.1/*
