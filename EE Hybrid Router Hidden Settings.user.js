@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         EE Hybrid Router Hidden Settings
 // @namespace    https://github.com/M-Zoghi/EE-Hybrid-Router-Hidden-Settings
-// @version      0.2
+// @version      0.3
 // @description  Adds Hidden Menus to EE Hybrid Router
 // @author       M-Zoghi
 // @match        http*://192.168.1.1/*
@@ -10,10 +10,6 @@
 
 (function() {
     'use strict';
-
-    FwLock = "0";
-    showACL(FwLock);
-
     var advancedSettingsMenuItem = document.getElementById('menu_Advanced');
 
     var ulElement = document.createElement('ul');
@@ -71,4 +67,10 @@
     `;
 
     managmentSettingsMenuItem.parentNode.appendChild(ulElement);
+})();
+
+(function() {
+    'use strict';
+    FwLock = "0";
+    showACL(FwLock);
 })();
